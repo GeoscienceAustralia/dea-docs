@@ -17,7 +17,7 @@ Data and Services Listing
 * The public S3 bucket can be explored using the interactive web application
   available at https://data.dea.ga.gov.au/.
 
-* Data products' extent and complete scene listing is available via explorer
+* The extent and complete scene listing of each data product is available via explorer
   at https://explorer.sandbox.dea.ga.gov.au/.
 
 * Explorer has a STAC endpoint, for listing or searching metadata records
@@ -46,7 +46,10 @@ DEA's public data bucket is named ``dea-public-data`` and the ARN for it is
     ``https://data.dea.ga.gov.au/baseline/ga_ls8c_ard_3/091/076/2019/07/31/ga_ls8c_nbart_3-1-0_091076_2019-07-31_final_thumbnail.jpg``
     could be changed to an S3 direct link like
     ``https://dea-public-data.s3-ap-southeast-2.amazonaws.com/baseline/ga_ls8c_ard_3/091/076/2019/07/31/ga_ls8c_nbart_3-1-0_091076_2019-07-31_final_thumbnail.jpg``.
-
+    The S3 data is in AWS region ap-southeast-2
+  
+    Programmatic access requires the environment variable AWS_NO_SIGN_REQUEST=Yes
+    
 
 Key products that are available on S3 include the following:
 
