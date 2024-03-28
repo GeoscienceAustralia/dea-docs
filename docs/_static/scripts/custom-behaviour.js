@@ -192,4 +192,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
             }
         }
     })();
+
+    // Click on any image within the page content to open it in a new tab.
+
+    (function () {
+        let images = document.querySelectorAll(".bd-article img");
+
+        for (let i = 0; i < images.length; i++) {
+            let image = images[i];
+
+            image.dataset.linkType = "image";
+            image.title = "Click to view at full size.";
+
+            image.addEventListener("click", function () {
+                window.open(image.src, "_blank");
+            });
+        }
+    })();
 });

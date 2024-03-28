@@ -1,0 +1,19 @@
+.validation-report {
+    &-variables-table {
+        tr td:first-child {
+          font-weight: bold;
+        }
+    }
+
+    &-results-table {
+        tbody tr:first-child {
+          font-weight: bold;
+        }
+    }
+
+    &-download {
+        float: right;
+        margin-left: 1rem;
+    }
+}
+

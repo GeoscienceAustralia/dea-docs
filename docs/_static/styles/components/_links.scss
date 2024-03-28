@@ -29,3 +29,8 @@ a {
     }
 }
 
+img {
+    &[data-link-type="image"] {
+        cursor: pointer;
+    }
+}

@@ -13,3 +13,4 @@ sphinx-sitemap<=2.5.1
 sphinxext-opengraph<=0.9.1
 sphinx-notfound-page<=1.0.0
 sphinx-copybutton<=0.5.2
+
