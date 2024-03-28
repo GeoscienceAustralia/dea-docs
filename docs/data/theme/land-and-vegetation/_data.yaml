@@ -8,9 +8,6 @@ pages:
   - name: DEA Fractional Cover
     link: /data/category/dea-fractional-cover/
     image: /_files/cmi/FractionalCover1.jpg
-  - name: DEA Geomedian and Mean Absolute Deviation (GeoMAD)
-    link: /data/product/dea-geometric-median-and-median-absolute-deviation-landsat/
-    image: null
   - name: DEA Mangroves
     link: /data/product/dea-mangrove-canopy-cover-landsat/
     image: /_files/cmi/DEA-mangroves.jpg

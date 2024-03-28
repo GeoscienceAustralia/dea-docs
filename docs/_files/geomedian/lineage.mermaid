@@ -1,0 +1,39 @@
+flowchart LR
+
+subgraph DataSources["Data Source(s)"]
+    direction TB
+    L5Data["`Landsat 5 (TM)`"]
+    L7Data["`Landsat 7 (ETM+)`"]
+    L8Data["`Landsat 8 (OLI-TIRS)`"]
+    L9Data["`Landsat 9 (OLI-TIRS)`"]
+end
+
+subgraph InputProducts["Input Product(s)"]
+    direction TB
+    L5SurfaceReflectance["`Landsat 5 Surface Reflectance`"]
+    L7SurfaceReflectance["`Landsat 7 Surface Reflectance`"]
+    L8SurfaceReflectance["`Landsat 8 Surface Reflectance`"]
+    L9SurfaceReflectance["`Landsat 9 Surface Reflectance`"]
+end
+
+subgraph ProcessingMethods["Processing Method(s)"]
+    direction TB
+    Processing1["`GeoMAD algorithms with morphological cloud operations on fmask (opening and dilation)`"]
+end
+
+subgraph Outputs["Output(s)"]
+    direction TB
+    GeomadLandsat5["`DEA GeoMAD Landsat 5`"]
+    GeomadLandsat7["`DEA GeoMAD Landsat 7`"]
+    GeomadLandsat8And9["`DEA GeoMAD Landsat 8 and 9`"]
+end
+
+L5Data --> L5SurfaceReflectance --> ProcessingMethods
+L7Data --> L7SurfaceReflectance --> ProcessingMethods
+L8Data --> L8SurfaceReflectance --> ProcessingMethods
+L9Data --> L9SurfaceReflectance --> ProcessingMethods
+
+ProcessingMethods --> GeomadLandsat5
+ProcessingMethods --> GeomadLandsat7
+ProcessingMethods --> GeomadLandsat8And9
+

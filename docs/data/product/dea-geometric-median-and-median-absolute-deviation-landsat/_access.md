@@ -2,12 +2,8 @@
 
 % ## Use constraints
 
-:::{dropdown} Accessing the OGC web services
+:::{dropdown} Accessing the web services
 
-When accessing via the [Digital Earth Australia OGC Web Services](https://ows.dea.ga.gov.au/), the layer names for the three Landsat 8, Landsat 7 and Landsat 5 products respectively are:
-* `ga_ls8c_nbart_gm_cyear_3`    
-* `ga_ls7e_nbart_gm_cyear_3`    
-* `ga_ls5t_nbart_gm_cyear_3`
-
+When accessing the product via the OGC Web Services, the layer names for the data are `ga_ls5t_gm_cyear_3`, `ga_ls7e_gm_cyear_3`, and `ga_ls8cls9c_gm_cyear_3`. Learn about these layers on the [Details tab](./?tab=details).
 :::
 

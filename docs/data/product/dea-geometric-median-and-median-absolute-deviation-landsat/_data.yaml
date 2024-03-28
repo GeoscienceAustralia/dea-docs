@@ -6,30 +6,30 @@
 title: DEA Geometric Median and Median Absolute Deviation (Landsat)
 long_title: Geoscience Australia Landsat Geometric Median and Median Absolute Deviation Collection 3
 header_image: /_files/cmi/Geomedian_Australia_2014.jpg
-version: 3.1.0
+version: 4.0.0
 is_latest_version: true
-latest_version_link: null
+latest_version_link: /data/product/dea-geometric-median-and-median-absolute-deviation-landsat/
 is_provisional: false
 product_type: Derivative
 spatial_data_type: Raster
 time_span:
   start: 1986
-  end: 2022
-update_frequency: Yearly
-next_update: null
+  end: Present
+update_frequency: Annually
+next_update: 2025
 product_ids:
-  - ga_ls5t_nbart_gm_cyear_3
-  - ga_ls7e_nbart_gm_cyear_3
-  - ga_ls8c_nbart_gm_cyear_3
+  - ga_ls5t_gm_cyear_3
+  - ga_ls7e_gm_cyear_3
+  - ga_ls8cls9c_gm_cyear_3
 
 parent_products:
-  name: Landsat 5, 7 and 8 NBART and Observational Attributes
+  name: Landsat 5, 7, 8, and 9 NBART and Observational Attributes
   link: /data/category/dea-surface-reflectance/
 collection:
   name: Geoscience Australia Landsat Collection 3
   link: null
 doi: 10.26186/146261
-ecat: "146261"
+ecat: "149305"
 nci: null
 licence:
   name: Creative Commons Attribution 4.0 International Licence
@@ -60,12 +60,12 @@ explorers:
 data:
   - link: https://data.dea.ga.gov.au/?prefix=derivative
     name: Access the data on AWS
-  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls5t_nbart_gm_cyear_3/catalog.html
+  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls5t_gm_cyear_3/catalog.html
     name: Annual Landsat 5 observations on NCI
-  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls7e_nbart_gm_cyear_3/catalog.html
+  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls7e_gm_cyear_3/catalog.html
     name: Annual Landsat 7 observations on NCI
-  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls8c_nbart_gm_cyear_3/catalog.html
-    name: Annual Landsat 8 observations on NCI
+  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls8cls9c_gm_cyear_3/catalog.html
+    name: Annual Landsat 8 and 9 observations on NCI
 
 code_examples: null
 
@@ -78,6 +78,9 @@ custom: null
 # History
 
 old_versions:
+  - version: 3.1.0
+    title: DEA Geometric Median and Median Absolute Deviation (Landsat)
+    slug: dea-geometric-median-and-median-absolute-deviation-landsat-3.1.0
   - version: 2.1.0
     title: DEA Surface Reflectance Median Absolute Deviation (Landsat)
     slug: dea-surface-reflectance-median-absolute-deviation-landsat-2.1.0

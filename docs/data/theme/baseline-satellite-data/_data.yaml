@@ -14,3 +14,6 @@ pages:
   - name: Daily SatPaths
     link: /data/product/daily-satpaths-beta/
     image: /_files/cmi/SatPaths_image.png
+  - name: DEA Geomedian and Mean Absolute Deviation (GeoMAD)
+    link: /data/product/dea-geometric-median-and-median-absolute-deviation-landsat/
+    image: /_files/cmi/Geomedian_Australia_2014.jpg

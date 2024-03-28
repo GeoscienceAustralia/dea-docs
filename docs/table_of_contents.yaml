@@ -71,6 +71,8 @@ entries:
                     title: Sentinel-2B Surface Reflectance NBART
                   - file: data/product/dea-surface-reflectance-oa-sentinel-2b-msi/index
                     title: Sentinel-2B Observational Attributes
+          - file: data/product/dea-geometric-median-and-median-absolute-deviation-landsat/index
+            title: DEA Geomedian and Median Absolute Deviation (GeoMAD)
           - file: data/product/australian-national-spectral-database/index
           - file: data/product/australian-geographic-reference-image/index
           - file: data/product/daily-satpaths-beta/index
@@ -92,8 +94,6 @@ entries:
                 title: DEA Fractional Cover
               - file: data/product/dea-fractional-cover-percentiles-landsat/index
                 title: DEA Fractional Cover Percentiles
-          - file: data/product/dea-geometric-median-and-median-absolute-deviation-landsat/index
-            title: DEA Geomedian and Median Absolute Deviation (GeoMAD)
           - file: data/product/dea-mangrove-canopy-cover-landsat/index
             title: DEA Mangroves
           - file: data/product/dea-tasseled-cap-percentiles-landsat/index

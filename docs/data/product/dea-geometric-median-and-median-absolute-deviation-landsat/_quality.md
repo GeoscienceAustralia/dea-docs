@@ -1,8 +1,11 @@
 ## Accuracy
 
-The accuracy of the GeoMAD layers is dependent on the accuracy of the underpinning earth observation data. As the values of the geomedian and MAD are synthetic (not observed directly by satellite), they cannot be verified by field work.
+The accuracy of the GeoMAD layers is dependent on the accuracy of the earth observation data on which it is based. 
 
-To calculate a geomedian or MAD representative of clear observations, the majority of the input data must be clear of clouds, shadows or other issues that can adversely affect an observation. Where a location experiences more than 50% of time under the impact of clouds and shadows (such as areas of Tasmania) the GeoMAD can produce an output that is essentially cloud / shadow noise. As such it is necessary to use a large enough collection of data to enable clear medians to be calculated. To mitigate the impact of poor quality observations and other artefacts, the input data is first screened using the Pixel Quality product, however some poor pixels are likely to still be included in the data after screening. Increasing the period from which observations are included in the input dataset also helps to mitigate the issue. Where no-data pixels occur in locations that clear observations should occur, the cause is a lack of clear pixels to populate the GeoMAD.
+To calculate a reliable geomedian or MAD, the majority of the input data must be free of clouds, shadows, or other visual obstructions. For locations that experience more than 50% of time under clouds and shadows (such as areas of Tasmania) the GeoMAD can produce an output that is obscured by visual noise. Therefore, it is necessary to use a large enough collection of data to prevent this occurring. 
 
-% ## Quality assurance
+To reduce the impact of poor-quality earth observation data, the input data is screened using the Pixel Quality product.  
 
+Note that where no-data pixels occur in locations that clear observations should occur, the cause is a lack of clear pixels to populate the GeoMAD. 
+
+Also, note that since  the geomedian and MAD are synthetic (not observed directly by satellite), they cannot be verified by field work.

@@ -1,0 +1,87 @@
+# Overview
+
+title: DEA Geometric Median and Median Absolute Deviation (Landsat)
+long_title: Geoscience Australia Landsat Geometric Median and Median Absolute Deviation Collection 3
+header_image: /_files/cmi/Geomedian_Australia_2014.jpg
+version: 3.1.0
+is_latest_version: false
+latest_version_link: null
+is_provisional: false
+product_type: Derivative
+spatial_data_type: Raster
+time_span:
+  start: 1986
+  end: 2022
+update_frequency: Annually
+next_update: null
+product_ids:
+  - ga_ls5t_nbart_gm_cyear_3
+  - ga_ls7e_nbart_gm_cyear_3
+  - ga_ls8c_nbart_gm_cyear_3
+
+parent_products:
+  name: Landsat 5, 7 and 8 NBART and Observational Attributes
+  link: /data/category/dea-surface-reflectance/
+collection:
+  name: Geoscience Australia Landsat Collection 3
+  link: null
+doi: 10.26186/146261
+ecat: "146261"
+nci: null
+
+tags:
+  - geoscience_australia_landsat_collection_3
+  - satellite_images
+  - geomedian
+  - geo_mad
+  - geometric_median
+  - median_absolute_deviation
+
+# Access
+
+maps:
+  - link: https://maps.dea.ga.gov.au/#share=s-fzHT65z4jscx9U1Nfb1FoKlQ7uU
+    name: See it on a map
+
+explorers:
+  - link: https://explorer.dea.ga.gov.au/products#baseline-satellite-data-group
+    name: Data explorer
+
+data:
+  - link: https://data.dea.ga.gov.au/?prefix=derivative
+    name: Access the data on AWS
+  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls5t_nbart_gm_cyear_3/catalog.html
+    name: Annual Landsat 5 observations on NCI
+  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls7e_nbart_gm_cyear_3/catalog.html
+    name: Annual Landsat 7 observations on NCI
+  - link: https://dapds00.nci.org.au/thredds/catalog/jw04/ga_ls8c_nbart_gm_cyear_3/catalog.html
+    name: Annual Landsat 8 observations on NCI
+
+code_examples: null
+
+web_services:
+  - link: https://ows.dea.ga.gov.au/
+    name: Web Services
+
+custom: null
+
+# History
+
+old_versions:
+  - version: 2.1.0
+    title: DEA Surface Reflectance Median Absolute Deviation (Landsat)
+    slug: dea-surface-reflectance-median-absolute-deviation-landsat-2.1.0
+  - version: 2.0.0
+    title: DEA Surface Reflectance Geomedian (Landsat)
+    slug: dea-surface-reflectance-geomedian-landsat-2.0.0
+
+# Settings
+
+enable_overview: true
+enable_access: true
+enable_details: true
+enable_quality: true
+enable_history: true
+enable_faqs: false
+enable_credits: true
+

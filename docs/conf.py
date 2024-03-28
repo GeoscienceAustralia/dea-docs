@@ -84,6 +84,7 @@ myst_enable_extensions = [
 myst_heading_anchors = 6
 myst_all_links_external = True
 
+nbsphinx_requirejs_path = ""
 nbsphinx_execute = "never"
 
 external_toc_path = "table_of_contents.yaml"
